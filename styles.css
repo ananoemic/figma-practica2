@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #9ECEFA;
+    display: flex;
+    justify-content: space-between;
+}
+
+header span{
+    font-family: 'Fascinate', cursive;
+}
+
+#logo{
+    color: #87119A;
+    font-family: 400;
+    font-size: 45px;
+    margin: 1%;
+}
+
+
+#header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.nav-option{
+    font-weight: 700;
+    color:#707070;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.nav-option:hover{
+    color:#87119A;
+    text-decoration: underline;
+
+}
+
+.titulo{
+    margin-left: 2%;
+    border-left: #87119A solid 10px;
+    padding: 2%;
+    margin: 2.5%;
+    height: 15px;
+}
+.titulo h1{
+
+    color:#87119A;
+    text-transform: uppercase;
+}
+
+article p{
+    font-weight: 200;
+    padding: 2%;
+    margin-left: 2%;
+}
+
+.nosotros-img{
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nosotros-img img{
+    width: 32%;
+    height: 32%;
+}
+
+.servicios-img{
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.servicios-img img{
+    width: 32%;
+    height: 32%;
+}
+
+.portafolio-img{
+    padding: 3%;
+    display: relative;
+    justify-content: space-between;
+
+}
+.portafolio-img img{
+    width: 22%;
+    height: 22%;
+    padding: 10px;
+
+}
+.contacto-img{
+    padding: 0;
+    margin:0;
+}
+
+.contacto-img img{
+    width: 65%;
+    height: 85%;
+    padding: 3%;
+
+}
+.container-contacto{
+    display: flex;
+    margin:0;
+    margin-left: 3%;
+    margin-right: 0;
+}
+
+.contacto-datos{
+    padding: auto;
+}
+
+.contacto-datos span{
+    font-weight: bold;
+
+}
+
+footer{
+    background-color: #9ECEFA;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5%;
+    font-size: small;
+}
+
+footer span{
+    color:#87119A;
+    font-weight: bold;;
+}
